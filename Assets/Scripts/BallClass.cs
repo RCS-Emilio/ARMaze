@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallClass : MonoBehaviour
 {
-    public static bool hasKey = false;
+    public int remainingKey;
     public AudioSource goalSound;
     public AudioSource keySound;
     public GameObject goal;
-    Renderer goalRender;
+
     // Start is called before the first frame update
     void Start()
     {
-        Renderer goalRender = goal.GetComponent<Renderer>();
     }
 
     // Update is called once per frame
@@ -22,15 +22,17 @@ public class BallClass : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("key")) {
+        if (other.tag == "key") {
             Destroy(other.gameObject);
             keySound.Play();
-            hasKey = true;
-            goalRender.material.color = Color.green;
+            remainingKey--;
+            if(remainingKey == 0) 
+                goal.GetComponent<Renderer>().material.color = Color.green;
         }
 
-        if (other.CompareTag("goal")) { 
+        if (other.tag == "goal" && remainingKey == 0) { 
             goalSound.Play();
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

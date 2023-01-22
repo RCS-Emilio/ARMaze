@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HelpScene.unity
+    guid: 0c2ccde04f8c8e74e92b32abab262ee3
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 86f4030c6d6b0dc439bf3337ddfe75c6
+  - enabled: 1
+    path: Assets/Scenes/EasyMaze.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MedMaze.unity
+    guid: 77d72190f68c16245b2ded837f5639cb
+  - enabled: 1
+    path: Assets/Scenes/HardMaze.unity
+    guid: 646116f417d3d4e4e81227cd647282e9
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 03394df48ebf92349baf2797c4503ae4, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: f0aff987ff2753e4e949e076e5d7478b, type: 2}
