@@ -452,7 +452,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: how to launch
+  m_text: como jugar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1080,6 +1080,7 @@ GameObject:
   - component: {fileID: 666569166}
   - component: {fileID: 666569165}
   - component: {fileID: 666569164}
+  - component: {fileID: 666569167}
   m_Layer: 5
   m_Name: GoForth
   m_TagString: Untagged
@@ -1201,6 +1202,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666569162}
   m_CullTransparentMesh: 1
+--- !u!114 &666569167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666569162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2cd111c1f26b047896a55902dee4e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &687706595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2063,7 +2076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: how to play
+  m_text: como jugar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -2200,6 +2213,7 @@ GameObject:
   - component: {fileID: 1628673105}
   - component: {fileID: 1628673104}
   - component: {fileID: 1628673103}
+  - component: {fileID: 1628673106}
   m_Layer: 5
   m_Name: Close
   m_TagString: Untagged
@@ -2321,6 +2335,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628673101}
   m_CullTransparentMesh: 1
+--- !u!114 &1628673106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628673101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2cd111c1f26b047896a55902dee4e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1672045832
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,8 +2374,8 @@ RectTransform:
   m_GameObject: {fileID: 1672045832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6746641, y: 0.770752, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.77, y: 0.879666, z: 1.1413087}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1174104871}
   m_RootOrder: 3
@@ -2488,6 +2514,7 @@ GameObject:
   - component: {fileID: 1827760156}
   - component: {fileID: 1827760155}
   - component: {fileID: 1827760154}
+  - component: {fileID: 1827760157}
   m_Layer: 5
   m_Name: GoForth
   m_TagString: Untagged
@@ -2609,6 +2636,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827760152}
   m_CullTransparentMesh: 1
+--- !u!114 &1827760157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827760152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2cd111c1f26b047896a55902dee4e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1851489310
 GameObject:
   m_ObjectHideFlags: 0
